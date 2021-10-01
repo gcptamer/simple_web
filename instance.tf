@@ -1,7 +1,7 @@
 // Configure the Google Cloud provider
 provider "google" {
  credentials = "${file("credentials.json")}"
- project     = "week01deploy"
+ project     = "trusty-magnet-327716"
  region      = "us-central1"
 }
 
@@ -13,7 +13,7 @@ resource "google_compute_instance" "default" {
 
   boot_disk {
     initialize_params {
-      image = "Ubuntu/Ubuntu 18.04 LTS"
+      image = "ubuntu-os-cloud/ubuntu-1804-lts"
     }
   }
 
