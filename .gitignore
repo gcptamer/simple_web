@@ -1,0 +1,5 @@
+credentials.json 
+.terraform/ 
+.terraform.lock.hc1 
+.terraform.lock.hc1 
+terraform.tfstate 
